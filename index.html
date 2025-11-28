@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flou Wear - Moda con Estilo Único</title>
+    <meta name="description" content="Flou Wear - Descubre moda única y contemporánea. Colecciones exclusivas con estilo innovador. Envíos a todo Chile.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-logo">
+            <img src="assets/logo/logo.png" alt="Flou Wear Logo" class="logo-image">
+            <span>Flou Wear</span>
+        </div>
+    </div>
+
+    <header class="mobile-header">
+        <div class="mobile-nav-container">
+            <div class="logo">
+                <img src="assets/logo/logo.png" alt="Flou Wear Logo" class="logo-image">
+                <span>Flou Wear</span>
+            </div>
+            <div class="mobile-actions">
+                <div class="cart-icon">
+                    <a href="#"><i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span></a>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <div class="mobile-menu-header">
+                <div class="logo">
+                    <img src="assets/logo/logo.png" alt="Flou Wear Logo" class="logo-image">
+                    <span>Flou Wear</span>
+                </div>
+                <button class="close-menu" id="closeMenu">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <ul class="mobile-nav-list">
+                <li><a href="#inicio"><i class="fas fa-home"></i>Inicio</a></li>
+                <li><a href="#productos"><i class="fas fa-shopping-bag"></i>Productos</a></li>
+                <li><a href="#promociones"><i class="fas fa-tag"></i>Promociones</a></li>
+                <li><a href="#nosotros"><i class="fas fa-info-circle"></i>Nosotros</a></li>
+                <li><a href="#contacto"><i class="fas fa-envelope"></i>Contacto</a></li>
+            </ul>
+            <div class="mobile-menu-footer">
+                <div class="socials">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <p>Moda contemporánea para mentes creativas</p>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1 class="animate-text">Estilo que Define tu Esencia</h1>
+                <p class="animate-text delay-1">Descubre la nueva colección Flou Wear - Donde la moda encuentra su flow</p>
+                <a href="#productos" class="btn pulse">Ver Colección</a>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- Sección de productos -->
+        <section id="productos" class="productos">
+            <div class="container">
+                <h2 class="section-title">Nueva Colección</h2>
+                <div class="productos-grid">
+                    <div class="producto-card">
+                        <div class="producto-img">
+                            <img src="assets/productos/camiseta.jpg" alt="Camiseta Essential Flou">
+                            <div class="producto-badge">Nuevo</div>
+                        </div>
+                        <div class="producto-info">
+                            <h3>Camiseta Essential</h3>
+                            <p>Algodón premium</p>
+                            <div class="producto-footer">
+                                <span class="precio">$28.900</span>
+                                <button class="btn-producto add-to-cart">
+                                    <i class="fas fa-shopping-bag"></i>Agregar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="producto-card">
+                        <div class="producto-img">
+                            <img src="assets/productos/pantalon.jpg " alt="Pantalón Urban Flow">
+                            <div class="producto-badge">Popular</div>
+                        </div>
+                        <div class="producto-info">
+                            <h3>Pantalón Urban Flow</h3>
+                            <p>Comodidad y estilo urbano</p>
+                            <div class="producto-footer">
+                                <span class="precio">$89.900</span>
+                                <button class="btn-producto add-to-cart">
+                                    <i class="fas fa-shopping-bag"></i>Agregar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="producto-card">
+                        <div class="producto-img">
+                            <img src="assets/productos/chaqueta.jpg" alt="Chaqueta Modern Flou">
+                            <div class="producto-badge">Oferta</div>
+                        </div>
+                        <div class="producto-info">
+                            <h3>Chaqueta Modern Flou</h3>
+                            <p>Diseño contemporáneo</p>
+                            <div class="producto-footer">
+                                <span class="precio">$62.900</span>
+                                <button class="btn-producto add-to-cart">
+                                    <i class="fas fa-shopping-bag"></i>Agregar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="producto-card">
+                        <div class="producto-img">
+                            <img src="assets/productos/sudadera.jpg" alt="Sudadera Flou Comfort">
+                        </div>
+                        <div class="producto-info">
+                            <h3>Sudadera Flou Comfort</h3>
+                            <p>Confort y estilo único</p>
+                            <div class="producto-footer">
+                                <span class="precio">$79.900</span>
+                                <button class="btn-producto add-to-cart">
+                                    <i class="fas fa-shopping-bag"></i>Agregar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ver-mas-container">
+                    <button class="btn btn-outline" id="verMasProductos">
+                        <i class="fas fa-chevron-down"></i>
+                        Ver Más Productos
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="promociones" class="promociones">
+            <div class="container">
+                <h2 class="section-title">Promociones Especiales</h2>
+                <div class="promo-container">
+                    <div class="promo-card">
+                        <div class="promo-icon"><i class="fas fa-tags"></i></div>
+                        <h3>2x1 en Essentials</h3>
+                        <p>Lleva 2 productos essential por el precio de 1</p>
+                        <span class="promo-code">Código: FLOU2X1</span>
+                    </div>
+                    <div class="promo-card">
+                        <div class="promo-icon"><i class="fas fa-shipping-fast"></i></div>
+                        <h3>Envío Gratis</h3>
+                        <p>En compras superiores a $100.000</p>
+                        <span class="promo-code">Código: FLOUFREE</span>
+                    </div>
+                    <div class="promo-card">
+                        <div class="promo-icon"><i class="fas fa-percentage"></i></div>
+                        <h3>30% de Descuento</h3>
+                        <p>En toda la colección Urban Flow</p>
+                        <span class="promo-code">Código: URBAN30</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros" class="nosotros">
+            <div class="container">
+                <div class="nosotros-content">
+                    <div class="nosotros-text">
+                        <h2 class="section-title">Sobre Flou Wear</h2>
+                        <p>En Flou Wear creemos que la moda es una expresión única de tu personalidad. Nuestras prendas están diseñadas para quienes buscan estilo, comodidad y autenticidad.</p>
+                        <ul class="nosotros-list">
+                            <li><i class="fas fa-check"></i> Diseños exclusivos y contemporáneos</li>
+                            <li><i class="fas fa-check"></i> Materiales sostenibles de alta calidad</li>
+                            <li><i class="fas fa-check"></i> Producción ética y responsable</li>
+                            <li><i class="fas fa-check"></i> Envíos express a todo Colombia</li>
+                        </ul>
+                    </div>
+                    <div class="nosotros-img">
+                        <img src="assets/images/nuestra-tienda.jpg" alt="Flou Wear Store">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <div class="container">
+                <h2 class="section-title">Contáctanos</h2>
+                <div class="contacto-content">
+                    <div class="contacto-info">
+                        <h3>Información de Contacto</h3>
+                        <div class="contacto-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Dirección</strong>
+                                <p>Ocaña, Norte de Santander</p>
+                            </div>
+                        </div>
+                        <div class="contacto-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Teléfono</strong>
+                                <p>+57 3123456789</p>
+                            </div>
+                        </div>
+                        <div class="contacto-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contacto-emails">
+                                <div>
+                                    <strong>Email</strong>
+                                    <p>jgbaez@ufpso.edu.co</p>
+                                    <p>agarciaor@ufpso.edu.co</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contacto-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Horario</strong>
+                                <p>Lun-Vie: 08:00 - 17:00<br>Sáb: 08:00 - 14:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contacto-form">
+                        <h3>Envíanos un Mensaje</h3>
+                        <form id="form-contacto">
+                            <div class="form-group">
+                                <input type="text" placeholder="Nombre completo" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" placeholder="Teléfono">
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Tu mensaje..." rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-block">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar Mensaje
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="assets/logo/logo.png" alt="Flou Wear Logo" class="logo-image">
+                        <span>Flou Wear</span>
+                    </div>
+                    <p>Moda contemporánea para mentes creativas.</p>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#promociones">Promociones</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Servicio al Cliente</h3>
+                    <ul>
+                        <li><a href="#">Guía de Talles</a></li>
+                        <li><a href="#">Cambios y Devoluciones</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Suscríbete para recibir lanzamientos exclusivos.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="tu.email@ejemplo.com" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Flou Wear. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Navegación -->
+    <nav class="mobile-bottom-nav">
+        <a href="#inicio" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Inicio</span>
+        </a>
+        <a href="#productos" class="nav-item">
+            <i class="fas fa-shopping-bag"></i>
+            <span>Productos</span>
+        </a>
+        <a href="#promociones" class="nav-item">
+            <i class="fas fa-tag"></i>
+            <span>Ofertas</span>
+        </a>
+        <a href="#contacto" class="nav-item">
+            <i class="fas fa-user"></i>
+            <span>Contacto</span>
+        </a>
+    </nav>
+
+    <!-- Botón de WhatsApp -->
+    <a href="https://wa.me/56976543210" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
